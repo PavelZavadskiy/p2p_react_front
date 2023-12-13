@@ -1,0 +1,10 @@
+[
+	{
+    "id": 0,
+		"type": "selling"
+	},
+	{
+    "id": 1,
+		"type": "buying"
+	}
+]
