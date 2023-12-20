@@ -253,6 +253,18 @@ input[type='number'] {
   margin-left: 4px;
 }
 
+.table_header_filter_payment_methods_crypto_triangle_logo {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  font-size: 16px;
+  fill: currentcolor;
+  transform: rotate(0deg);
+  color: rgb(112, 122, 138);
+  width: 1em;
+  height: 1em;
+}
+
 .table_header_filter_payment_methods {
   width: 200px;
 
@@ -871,4 +883,666 @@ input[type='number'] {
   align-items: center;
   justify-content: center;
   font-size: 14px;
+}
+
+/* AdvertCreate */
+
+.advert_create_header {
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px;
+}
+
+.advert_create_title_wrapper {
+  box-sizing: border-box;
+  min-width: 0px;
+  padding: 20px 0px;
+}
+
+.advert_create_title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.advert_create_body {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  /* position: relative; */
+  background-color: rgb(249, 249, 250);
+  /* z-index: 1; */
+}
+
+.advert_create_body_wrapper {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  /* margin-left: auto;
+    margin-right: auto; */
+  text-align: left;
+  flex-direction: column;
+}
+
+.advert_create_steps_wrapper {
+  padding: 16px 0px 8px;
+}
+
+.advert_create_steps {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.advert_create_steps_item_wrapper {
+  color: rgb(30, 35, 41);
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  justify-content: space-between;
+  /* position: static; */
+  color: rgb(112, 122, 138);
+  padding: 8px;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+  -webkit-box-align: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.advert_create_steps_item {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  gap: 20px;
+
+  position: static;
+}
+
+.advert_create_steps_item_title {
+  display: block;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.advert_create_steps_item_marker {
+  /* position: relative; */
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: rgb(234, 236, 239);
+  user-select: none;
+
+  position: relative;
+}
+
+.advert_create_steps_item_marker_active {
+  background-color: rgb(252, 213, 53);
+}
+
+.advert_create_steps_item_marker_text {
+  color: rgb(24, 26, 32);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* .wait::after {
+  content: '';
+
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  bottom: 20px;
+  height: 4px;
+  width: calc(100%/3);
+  align-self: flex-end;
+  flex: 1 1 0%;
+  background-color: rgb(234, 236, 239);
+
+  position: absolute;
+  bottom: 20px;
+} */
+
+.advert_create_choose_type_ads_wrapper {
+  box-sizing: border-box;
+  min-width: 0px;
+  display: flex;
+  margin: 0px;
+  background-color: rgb(255, 255, 255);
+  align-items: flex-end;
+  z-index: 1;
+}
+
+.advert_create_choose_type_ads {
+  height: 48px;
+  line-height: 48px;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.04) 2px -1px 4px inset;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  color: rgb(33, 40, 51);
+  font-weight: 400;
+  background-color: rgb(245, 245, 245);
+}
+
+.advert_create_choose_type_ads_active {
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  font-weight: 600;
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  cursor: pointer;
+  width: 100%;
+  /* height: 32px; */
+  color: rgb(11, 14, 17);
+  text-align: center;
+  box-shadow: none;
+}
+
+.advert_create_tuning_ads_wrapper {
+  padding: 32px;
+  box-sizing: border-box;
+  min-width: 0px;
+  box-shadow: rgba(232, 233, 239, 0.5) 0px 4px 30px;
+  background-color: rgb(255, 255, 255);
+}
+
+.advert_create_tuning_ads_asset_block {
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 70%;
+  gap: 16px;
+}
+
+.advert_create_tuning_ads_asset_block {
+}
+
+.advert_create_tuning_ads_asset_block_item {
+  position: relative;
+  padding-bottom: 24px;
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  flex: 1 1 0%;
+}
+
+.advert_create_tuning_ads_asset_block_label {
+  padding-bottom: 8px;
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 14px;
+  height: 26px;
+  color: rgb(30, 35, 41);
+}
+
+.advert_create_tuning_ads_asset_block_dropdown_select {
+  box-sizing: border-box;
+  position: relative;
+  outline: none;
+
+  box-sizing: border-box;
+
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  line-height: 1.6;
+  background-color: rgb(245, 245, 245);
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  height: 40px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.advert_create_tuning_ads_asset_block_dropdown_select_input {
+  color: rgb(30, 35, 41);
+  font-size: 14px;
+  border-radius: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-sizing: border-box;
+
+  margin: 0px;
+  min-width: 0px;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  opacity: 1;
+  /* visibility: hidden; */
+  cursor: pointer;
+  background-color: transparent;
+
+  min-height: 32px;
+  padding: 12px 24px 12px 12px;
+}
+
+.advert_create_tuning_ads_arrow {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  color: rgb(146, 154, 165);
+  font-size: 16px;
+  fill: rgb(146, 154, 165);
+  width: 1em;
+  height: 1em;
+}
+
+.advert_create_tuning_ads_asset_block_separator {
+  margin-bottom: 24px;
+  box-sizing: border-box;
+  margin: 0px 0px 16px;
+  border-top: 1px dashed rgb(234, 236, 239);
+  height: 1px;
+}
+
+.advert_create_tuning_ads_asset_block_price_type {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: block;
+}
+
+.advert_create_tuning_ads_asset_block_price_type_choose_block {
+  position: relative;
+  padding-bottom: 24px;
+  box-sizing: border-box;
+}
+
+.advert_create_tuning_ads_asset_block_price_type_choose_label {
+  padding-bottom: 8px;
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 14px;
+  height: 26px;
+  color: rgb(30, 35, 41);
+}
+
+.advert_create_tuning_ads_asset_block_price_type_choose_radio_box {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: grid;
+  row-gap: 16px;
+}
+
+.advert_create_tuning_ads_asset_block_price_type_choose_radio_box_item {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.advert_create_tuning_ads_asset_block_price_type_choose_radio_box_item_label {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.advert_create_tuning_ads_asset_block_price_type_choose_radio_box_item_logo {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+  fill: none;
+  color: rgb(183, 189, 198);
+  /* color: transparent; */
+}
+
+.advert_create_tuning_ads_asset_block_price_type_choose_radio_box_item_logo_active {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+  fill: none;
+  color: rgb(240, 185, 11);
+  /* color: transparent; */
+}
+
+/* .advert_create_tuning_ads_asset_block_price_type_choose_radio_box_item_logo_active {
+  color: rgb(240, 185, 11);
+} */
+
+/* .advert_create_tuning_ads_asset_block_price_type_choose_radio_box_item_input:checked  {
+  width: 32px;
+}
+
+.advert_create_tuning_ads_asset_block_price_type_choose_radio_box_item_input:checked + .advert_create_tuning_ads_asset_block_price_type_choose_radio_box_item_title {
+  color: red;
+  font-size: 24px;
+} */
+
+/* .fait_0:checked
+  + .advert_create_tuning_ads_asset_block_price_type_choose_radio_box_item_logo {
+  color: rgb(240, 185, 11);
+}
+
+.fait_1:checked + .advert_create_tuning_ads_asset_block_price_type_choose_radio_box_item_logo {
+  color: rgb(240, 185, 11);
+} */
+
+.advert_create_tuning_ads_asset_block_price_type_choose_radio_box_item_title {
+  box-sizing: border-box;
+  margin: 0px 0px 0px 8px;
+  min-width: 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.advert_create_tuning_ads_asset_block_price_type_tuning_price_wrapper {
+  padding-bottom: 24px;
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+}
+
+.advert_create_tuning_ads_asset_block_price_type_tuning_price_label {
+  padding-bottom: 8px;
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 14px;
+  height: 26px;
+  color: rgb(30, 35, 41);
+}
+
+.advert_create_tuning_ads_asset_block_price_type_tuning_price_box {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 360px;
+}
+
+.advert_create_tuning_ads_asset_block_price_type_tuning_price_box_item_wrapper {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  border: 1px solid rgb(234, 236, 239);
+  border-radius: 4px;
+  padding: 0px 4px;
+}
+
+.advert_create_tuning_ads_asset_block_price_type_tuning_price_box_item {
+  margin-top: 0px;
+  border: none;
+  box-sizing: border-box;
+  margin: 4px 0px 0px;
+  min-width: 0px;
+  display: inline-flex;
+  position: relative;
+  -webkit-box-align: center;
+  align-items: center;
+  line-height: 1.6;
+  width: 100%;
+  height: 48px;
+}
+
+.advert_create_tuning_ads_asset_block_price_type_tuning_price_box_item_button_wrapper {
+  flex-shrink: 0;
+  margin-right: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+}
+
+.advert_create_tuning_ads_asset_block_price_type_tuning_price_box_item_button {
+  margin: 0px;
+  appearance: none;
+  user-select: none;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  line-height: 20px;
+  word-break: keep-all;
+  color: rgb(30, 35, 41);
+  border-radius: 4px;
+  min-height: 24px;
+  border: none;
+  background-color: rgb(234, 236, 239);
+  background-image: none;
+  width: 36px;
+  height: 36px;
+  min-width: auto;
+  padding: 0px;
+}
+
+.advert_create_tuning_ads_asset_block_price_type_tuning_price_box_item_button:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.advert_create_tuning_ads_asset_block_price_type_tuning_price_box_item_button_logo {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  color: rgb(118, 128, 143);
+  font-size: 20px;
+  fill: rgb(118, 128, 143);
+  width: 1em;
+  height: 1em;
+}
+
+.advert_create_tuning_ads_asset_block_price_type_tuning_price_box_item_input {
+  color: rgb(30, 35, 41);
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  outline: none;
+  border: none;
+  background-color: inherit;
+  opacity: 1;
+  text-align: center;
+}
+
+.advert_create_tuning_ads_asset_block_price_type_tuning_price_box_info {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  color: rgb(112, 122, 138);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* AdvertCreatePopUp */
+
+.ads_create_pop_up {
+  box-sizing: border-box;
+  width: 100%;
+  position: absolute;
+  z-index: 1100;
+  top: calc(50% + 20px);
+  transition: height 0.2s ease 0s;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(24, 26, 32, 0.1) 0px 0px 1px, rgba(71, 77, 87, 0.08) 0px 7px 14px, rgba(24, 26, 32, 0.08) 0px 3px 6px;
+  border-radius: 4px;
+  height: auto;
+}
+
+.ads_create_pop_up_find_wrapper {
+  padding: 8px 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.ads_create_pop_up_find {
+  box-sizing: border-box;
+  margin: 0px;
+  display: flex;
+  gap: 4px;
+  /* position: relative; */
+  align-items: center;
+  line-height: 1.6;
+  height: 40px;
+  border: 1px solid rgb(234, 236, 239);
+  border-radius: 4px;
+  width: 100%;
+  padding: 0 8px;
+}
+
+.ads_create_pop_up_find_input {
+  color: rgb(30, 35, 41);
+  font-size: 14px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 4px;
+
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  outline: none;
+  border: none;
+  opacity: 1;
+  background-color: transparent;
+}
+
+.ads_create_pop_up_find_logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ads_create_pop_up_list {
+  padding: 4px 0px;
+  overflow-y: scroll;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  max-height: 228px;
+}
+
+.ads_create_pop_up_list_item {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  color: rgb(30, 35, 41);
+  opacity: 1;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  line-height: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ads_create_pop_up_list_item:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.ads_create_pop_up_list_item_wrapper {
+  max-height: 40px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 14px;
+  line-height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  align-items: center;
+}
+
+.ads_create_pop_up_find_logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.advert_create_tuning_ads_asset_block_price_final_info_wrapper {
+  box-sizing: border-box;
+  display: flex;
+  gap: 16px;
+  padding-bottom: 24px;
+  margin: 0 0 16px;
+}
+
+.advert_create_tuning_ads_asset_block_price_final_item_wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 150px;
+}
+
+.advert_create_tuning_ads_asset_block_price_final_item_title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.advert_create_tuning_ads_asset_block_price_final_item_value {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  font-size: 24px;
+  font-weight: 600;
 }

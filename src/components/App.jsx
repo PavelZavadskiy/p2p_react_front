@@ -11,6 +11,8 @@ import { TableOrders } from './TableOrders';
 // import { UserBlock } from './App.styled';
 import { TableMenu } from './TableMenu/TableMenu';
 import { TableFilter } from './TableFilter/TableFilter';
+import { Advert } from './Advert/Advert';
+import { AdvertCreate } from './AdvertCreate/AdvertCreate';
 
 import { ChooseCurrentUser } from './ChooseCurrentUser/ChooseCurrentUser';
 import { ProfileCurrentUser } from './ProfileCurrentUser/ProfileCurrentUser';
@@ -366,50 +368,11 @@ export function App() {
           </button>
         )}
       </div>
-      {cryptos && (
-        <TableMenu
-          cryptos={cryptos}
-          changeAdvertType={handleOnChangeCurrentAdvertType}
-          changeCrypto={handleOnChangeCurrenCrypto}
-        />
-      )}
-      {cryptos && (
-        <TableFilter
-          currentFiat={currentFiat}
-          cryptos={cryptos}
-          fiats={fiats}
-          paimentMethods={paimentMethods}
-          regions={regions}
-          currentRegion={currentRegion}
-          changeFiat={handleOnChangeCurrentFiat}
-          currentPaimentMethod={currentPaimentMethod}
-          changePaimentMethod={handleOnChangeCurrentPaimentMethod}
-          changeRegion={handleOnChangeCurrentRegion}
-          changeAmount={handleOnChangeCurrentAmount}
-          filterTypes={filterTypes}
-          currentFilterType={currentFilterType}
-          changeFilterType={handleOnChangeFilterType}
-          changeIsOnlyMerchantAds={handleOnChangeIsOnlyMerchantAds}
-          isOnlyMerchantAds={isOnlyMerchantAds}
-        />
-      )}
-      <TableAdverts
-        dataset={adverts}
-        cryptos={cryptos}
-        fiats={fiats}
-        users={users}
-        paimentMethods={paimentMethods}
-        regions={regions}
-        advertTypes={advertTypes}
-        createOrder={handleCreateOrder}
-        currentAdvertType={currentAdvertType}
-        currentCrypto={currentCrypto}
-        currentFiat={currentFiat}
-        currentPaimentMethod={currentPaimentMethod}
-        currentRegion={currentRegion}
-        currentAmount={currentAmount}
-        currentFilterType={currentFilterType}
-      />
+      {/* <Advert /> */}
+      <AdvertCreate currentUser={currentUser}/>
+
+
+
       <div className="container">
         <div className="wrapper"></div>
         {isPushhCreateAdvert && currentUser && (
