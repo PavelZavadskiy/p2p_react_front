@@ -20,8 +20,8 @@ export const ModalForm = styled.div`
   background: white;
   border: 2px solid black;
   padding: 16px;
-  width: 1024px;
-  height: 600px
+  width: 600px;
+  height: 750px
 `;
 
 export const Image = styled.img`
@@ -38,19 +38,31 @@ export const Close = styled.button`
 `;
 
 export const Wrapper = styled.div`
-  width: 100%;
+  width: 50%;
   height: 100%;
   display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0 auto;
+  margin-top: 32px;
+`;
+
+export const WrapperCheckBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0 auto;
+`;
+
+export const WrapperCheckBoxItem = styled.div`
+  display: flex;
+  gap: 16px;
 `;
 
 export const WrapperHalf = styled.div`
   width: 50%;
   height: 100%;
   padding: 32px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
 `;
 
 export const Separator = styled.div`
@@ -63,3 +75,9 @@ export const UserBlock = styled.div`
   padding: 16px;
   border: solid 1px gray;
 `;
+
+export const Button = styled.button`
+  padding: 8px 16px;
+`;
+
+

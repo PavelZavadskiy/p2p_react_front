@@ -1,9 +1,9 @@
-import users from '../json/user.json';
+// import users from '../json/user.json';
 import cryptos from '../json/cryptos.json';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-export const TableOrders = ({ dataset, createOrder }) => {
+export const TableOrders = ({ dataset, createOrder, users }) => {
   const [statuses, setStatuses] = useState([]);
   useEffect(() => {
     const getStatuses = async () => {
@@ -16,6 +16,8 @@ export const TableOrders = ({ dataset, createOrder }) => {
     };
     getStatuses();
   }, []);
+
+  console.log('TableOrders', users);
 
   return (
     <div>

@@ -1,7 +1,6 @@
 import { Wrapper, Text, Input, Button, ErrorText } from './CreateAdvert.styled';
 import { Formik, ErrorMessage, Field } from 'formik';
 
-import users from '../../json/user.json';
 import arverts_type from '../../json/arverts_type.json';
 import cryptos from '../../json/cryptos.json';
 
@@ -15,7 +14,7 @@ const initialValues = {
   available: 0,
 };
 
-export const CreateAdvert = ({ onClickCreate }) => {
+export const CreateAdvert = ({ onClickCreate, users }) => {
   const handleOnSubmit = (values, actions) => {
     // const { onClickCreate } = this.props;
     onClickCreate({
