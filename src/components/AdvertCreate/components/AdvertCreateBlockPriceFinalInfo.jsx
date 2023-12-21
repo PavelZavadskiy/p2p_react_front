@@ -13,13 +13,13 @@ export function AdvertCreateBlockPriceFinalInfo({ currentPrice, currentHighestOr
       <div className="advert_create_tuning_ads_asset_block_price_final_item_wrapper">
         <div className="advert_create_tuning_ads_asset_block_price_final_item_title">YourPrice</div>
         <div className="advert_create_tuning_ads_asset_block_price_final_item_value">
-          {String.fromCharCode(fiats[currentFiat].symbol)} {currentPrice}
+          {fiats ? String.fromCharCode(fiats[currentFiat].symbol) : ''} {currentPrice.toFixed(2)}
         </div>
       </div>
       <div className="advert_create_tuning_ads_asset_block_price_final_item_wrapper">
         <div className="advert_create_tuning_ads_asset_block_price_final_item_title">Highest Order Price</div>
         <div className="advert_create_tuning_ads_asset_block_price_final_item_value">
-          {String.fromCharCode(fiats[currentFiat].symbol)} {currentHighestOrderPrice}
+          {fiats ? String.fromCharCode(fiats[currentFiat].symbol) : ''} {currentHighestOrderPrice.toFixed(2)}
         </div>
       </div>
     </div>

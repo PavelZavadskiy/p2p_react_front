@@ -12,6 +12,7 @@ export function AdvertCreateSteps({ adsCurrentStep }) {
 
     const interval = setInterval(() => {
       if (step_1.current && step_2.current && step_3) {
+        steps.forEach(item => item.current.classList.remove('advert_create_steps_item_marker_active'));
         for (let i = 0; i < steps.length; i++) {
           if (i < adsCurrentStep) {
             steps[i].current.classList.add('advert_create_steps_item_marker_active');

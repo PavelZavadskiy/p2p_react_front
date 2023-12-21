@@ -1409,6 +1409,19 @@ input[type='number'] {
   line-height: 1.5;
 }
 
+.advert_create_tuning_ads_asset_block_price_type_tuning_price_box_info_span {
+  font-weight: 700;
+}
+
+.advert_create_tuning_ads_asset_block_price_type_tuning_price_box_info_formula {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  border-bottom: 1px dashed rgb(132, 142, 156);
+  display: inline-block;
+  color: rgb(72, 81, 93);
+}
+
 /* AdvertCreatePopUp */
 
 .ads_create_pop_up {
@@ -1545,4 +1558,1001 @@ input[type='number'] {
   min-width: 0px;
   font-size: 24px;
   font-weight: 600;
+}
+
+/* Create Adx Help Block */
+
+.advert_create_body_help_block {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  height: 120px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width: 100%;
+}
+
+.advert_create_body_help_block_wrapper {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  /* justify-content: flex-end; */
+}
+
+.advert_create_body_help_block_link {
+  box-sizing: border-box;
+  margin: 0px 0px 0px 8px;
+  min-width: 0px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(33, 40, 51);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.advert_create_body_help_block_link_logo {
+  box-sizing: border-box;
+  margin: 0px 4px 0px 0px;
+  min-width: 0px;
+  color: rgb(240, 185, 11);
+  font-size: 24px;
+  fill: rgb(240, 185, 11);
+  width: 1em;
+  height: 1em;
+}
+
+/* Ads Create Next Prev Block */
+
+.advert_create_body_next_prew_block {
+  flex-direction: row;
+  padding: 12px 0px;
+  margin: auto;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  min-width: 0px;
+  display: flex;
+  width: 1200px;
+}
+
+.advert_create_body_next_prew_block_wrapper {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.advert_create_body_next_prew_block_button {
+  width: 200px;
+  margin: 0px;
+  appearance: none;
+  user-select: none;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  padding: 10px 16px;
+  line-height: 20px;
+  min-width: 60px;
+  word-break: keep-all;
+  color: rgb(24, 26, 32);
+  border-radius: 4px;
+  min-height: 24px;
+  border: none;
+  background-image: none;
+}
+
+.advert_create_body_next_prew_block_button_next {
+  background: linear-gradient(270deg, rgb(248, 209, 47) 0%, rgb(240, 185, 11) 100%);
+}
+
+.advert_create_body_next_prew_block_button_next:hover {
+  box-shadow: none;
+  background-image: none;
+  background-color: rgb(252, 213, 53);
+  opacity: 0.9;
+}
+
+.advert_create_body_next_prew_block_button_prew {
+  background-color: rgb(234, 236, 239);
+}
+
+.advert_create_body_next_prew_block_button_prew:hover {
+  box-shadow: none;
+  background-image: none;
+  background-color: rgb(245, 245, 245);
+  opacity: 0.9;
+}
+
+/* Create Ads amount block */
+
+.advert_create_tuning_ads_amount_block {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+}
+
+/* Create Ads total amount block */
+
+.advert_create_tuning_ads_amount_total_block {
+  position: relative;
+  padding-bottom: 24px;
+  width: 520px;
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+}
+
+.advert_create_tuning_ads_amount_total_label {
+  padding-bottom: 8px;
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 14px;
+  height: 26px;
+  color: rgb(30, 35, 41);
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.advert_create_tuning_ads_wrapper {
+  padding: 32px;
+  box-sizing: border-box;
+  min-width: 0px;
+  box-shadow: rgba(232, 233, 239, 0.5) 0px 4px 30px;
+  background-color: rgb(255, 255, 255);
+}
+
+.advert_create_tuning_ads_amount_total_input_wrapper {
+  width: 520px;
+  box-sizing: border-box;
+  margin: 4px 0px 0px;
+  min-width: 0px;
+  display: inline-flex;
+  position: relative;
+  height: 40px;
+  align-items: center;
+  line-height: 1.6;
+  border: 1px solid rgb(234, 236, 239);
+  border-radius: 4px;
+}
+
+.advert_create_tuning_ads_amount_total_input_wrapper:has(.advert_create_tuning_ads_amount_total_input:focus) {
+  border-color: rgb(240, 185, 11);
+}
+
+.advert_create_tuning_ads_amount_total_input_wrapper:hover {
+  border-color: rgb(240, 185, 11);
+}
+
+.advert_create_tuning_ads_amount_total_input {
+  padding-left: 12px;
+  padding-right: 12px;
+  color: rgb(30, 35, 41);
+  font-size: 14px;
+
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background-color: inherit;
+  opacity: 1;
+  line-height: 1.15;
+}
+
+.advert_create_tuning_ads_amount_total_mnemo_wrapper {
+  flex-shrink: 0;
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 14px;
+}
+
+.advert_create_tuning_ads_amount_total_mnemo {
+  box-sizing: border-box;
+  margin: 0px 8px 0px 0px;
+  min-width: 0px;
+  display: inline;
+}
+
+.advert_create_tuning_ads_amount_total_approximate_total {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  font-size: 12px;
+  position: absolute;
+  right: 14px;
+  top: 74px;
+  color: rgb(118, 128, 143);
+}
+
+.advert_create_tuning_ads_amount_total_input_warning {
+  box-sizing: border-box;
+  margin: 2px 0px 0px;
+  min-width: 0px;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgb(242, 48, 81);
+}
+
+.advert_create_tuning_ads_amount_total_input_info_wrapper {
+  box-sizing: border-box;
+  margin: 2px 0px 0px;
+  min-width: 0px;
+  font-size: 12px;
+  line-height: 18px;
+
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(118, 128, 143);
+}
+
+.advert_create_tuning_ads_amount_total_input_info_available {
+  box-sizing: border-box;
+  margin: 0px 4px;
+  min-width: 0px;
+  color: rgb(30, 32, 38);
+  display: inline;
+}
+
+.advert_create_tuning_ads_amount_total_input_info_available_all {
+  box-sizing: border-box;
+  margin: 0px 12px 0px 8px;
+  min-width: 0px;
+  cursor: pointer;
+  color: rgb(240, 185, 11);
+  display: inline;
+}
+
+.advert_create_tuning_ads_amount_total_input_info_add_funds {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  cursor: pointer;
+  -webkit-box-align: center;
+  align-items: center;
+  font-weight: 500;
+  color: rgb(201, 148, 0);
+}
+
+.advert_create_tuning_ads_amount_total_input_info_add_funds_logo {
+  box-sizing: border-box;
+  margin: 0px 2px 0px 0px;
+  min-width: 0px;
+  color: currentcolor;
+  font-size: 14px;
+  fill: currentcolor;
+  width: 1em;
+  height: 1em;
+}
+
+/* Create Ads Order Limit */
+
+.advert_create_tuning_ads_order_limit_block {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+}
+
+.advert_create_tuning_ads_order_limit_item_wrapper {
+  position: relative;
+  padding-bottom: 24px;
+  display: inline-block;
+  width: auto;
+}
+
+.advert_create_tuning_ads_order_limit_item_separator {
+  font-size: 24px;
+  margin: 0px 12px;
+  box-sizing: border-box;
+  min-width: 0px;
+  line-height: 44px;
+  color: rgb(132, 142, 156);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.advert_create_tuning_ads_order_limit_item_label {
+  padding-bottom: 8px;
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 14px;
+  height: 26px;
+  color: rgb(30, 35, 41);
+}
+
+.advert_create_tuning_ads_order_limit_item_input_wrapper {
+  width: 240px;
+  box-sizing: border-box;
+  margin: 4px 0px 16px;
+  min-width: 0px;
+  display: inline-flex;
+  position: relative;
+  height: 40px;
+  -webkit-box-align: center;
+  align-items: center;
+  line-height: 1.6;
+  border: 1px solid rgb(234, 236, 239);
+  border-radius: 4px;
+}
+
+.advert_create_tuning_ads_order_limit_item_input_wrapper:has(.advert_create_tuning_ads_order_limit_item_input:focus) {
+  border-color: rgb(240, 185, 11);
+}
+.advert_create_tuning_ads_order_limit_item_input_wrapper:hover {
+  border-color: rgb(240, 185, 11);
+}
+
+.advert_create_tuning_ads_order_limit_item_input {
+  padding-left: 12px;
+  padding-right: 12px;
+  color: rgb(30, 35, 41);
+  font-size: 14px;
+
+  box-sizing: border-box;
+
+  min-width: 0px;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background-color: inherit;
+  opacity: 1;
+}
+
+.advert_create_tuning_ads_order_limit_item_mnemo_wrapper {
+  flex-shrink: 0;
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 14px;
+}
+
+.advert_create_tuning_ads_order_limit_item_mnemo {
+  box-sizing: border-box;
+  margin: 0px 8px 0px 0px;
+  min-width: 0px;
+  display: inline;
+}
+
+.advert_create_tuning_ads_order_limit_item_calculate {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  position: absolute;
+  bottom: -20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(112, 122, 138);
+}
+
+.advert_create_tuning_ads_amount_payment_block_separator {
+  box-sizing: border-box;
+  min-width: 0px;
+  border-top: 1px dashed rgb(234, 236, 239);
+  height: 1px;
+  margin-bottom: 24px;
+}
+
+.advert_create_tuning_ads_payment_block {
+  padding-bottom: 24px;
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+}
+
+.advert_create_tuning_ads_payment_block_label {
+  padding-bottom: 8px;
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 14px;
+  height: 26px;
+  color: rgb(30, 35, 41);
+}
+
+.advert_create_tuning_ads_payment_block_add_payments_wrapper {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 8px;
+}
+
+.advert_create_tuning_ads_payment_block_add_payments_item_wrapper {
+  padding: 16px;
+  border: 1px solid rgb(250, 250, 250);
+  background-color: rgb(250, 250, 250);
+  border-radius: 4px;
+}
+
+.advert_create_tuning_ads_payment_block_add_payments_item_wrapper:hover {
+  border: 1px solid rgb(240, 185, 11);
+  cursor: pointer;
+}
+
+.advert_create_tuning_ads_payment_block_add_payments_item_bank_wrapper {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.advert_create_tuning_ads_payment_block_add_payments_item_bank {
+  box-sizing: border-box;
+  margin: 0px 8px 0px 0px;
+  min-width: 0px;
+  color: rgb(102, 76, 219);
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.advert_create_tuning_ads_payment_block_add_payments_item_del_wrapper {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  position: relative;
+  display: flex;
+  cursor: pointer;
+}
+
+.advert_create_tuning_ads_payment_block_add_payments_item_name_wrapper {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.advert_create_tuning_ads_payment_block_add_payments_item_name_title {
+  font-size: 14px;
+  line-height: 24px;
+  width: 170px;
+  color: rgb(60, 65, 82);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.advert_create_tuning_ads_payment_block_add_payments_item_name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgb(26, 31, 52);
+  width: 20%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1 1 0%;
+}
+
+.advert_create_tuning_ads_payment_block_add_payments_item_bank_wrapper {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.advert_create_tuning_ads_payment_block_add_payments_item_bank_title {
+  font-size: 14px;
+  line-height: 24px;
+  width: 170px;
+  color: rgb(60, 65, 82);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.advert_create_tuning_ads_payment_block_add_payments_item_bank_num {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgb(26, 31, 52);
+  width: 20%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1 1 0%;
+}
+
+.advert_create_tuning_ads_payment_block_add_payments_item_del_logo {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  color: rgb(146, 154, 165);
+  font-size: 16px;
+  fill: rgb(146, 154, 165);
+  width: 1em;
+  height: 1em;
+}
+
+.advert_create_tuning_ads_payment_block_add_payments_button {
+  margin: 0px 0px 8px;
+  appearance: none;
+  user-select: none;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  padding: 6px 12px;
+  line-height: 20px;
+  word-break: keep-all;
+  color: rgb(24, 26, 32);
+  border-radius: 4px;
+  min-height: 24px;
+  border: none;
+  background-image: none;
+  background-color: rgb(252, 213, 53);
+  height: fit-content;
+  width: fit-content;
+  min-width: 104px;
+}
+
+.advert_create_tuning_ads_payment_block_add_payments_button:hover {
+  box-shadow: none;
+  background-image: none;
+  background-color: rgb(252, 213, 53);
+  opacity: 0.9;
+}
+
+.advert_create_tuning_ads_payment_block_add_payments_button_logo {
+  box-sizing: border-box;
+  margin: 0px 4px 0px 0px;
+  min-width: 0px;
+  color: currentcolor;
+  font-size: 14px;
+  fill: currentcolor;
+  width: 1em;
+  height: 1em;
+}
+
+.advert_create_tuning_ads_payment_block_add_payments_info {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(112, 122, 138);
+}
+
+.advert_create_tuning_ads_payment_block_payment_time_limit_block {
+  padding-bottom: 24px;
+}
+
+.advert_create_tuning_ads_payment_block_payment_time_limit_label {
+  padding-bottom: 8px;
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 14px;
+  height: 26px;
+  color: rgb(30, 35, 41);
+}
+
+.advert_create_tuning_ads_payment_block_payment_time_limit_wrapper {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  position: relative;
+  outline: none;
+  width: 128px;
+}
+
+.advert_create_tuning_ads_payment_block_payment_time_limit_input_wrapper {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: inline-flex;
+  position: relative;
+  -webkit-box-align: center;
+  align-items: center;
+  line-height: 1.6;
+  border: 1px solid rgb(234, 236, 239);
+  border-radius: 4px;
+  background-color: transparent;
+  height: 40px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.advert_create_tuning_ads_payment_block_payment_time_limit_input {
+  color: rgb(30, 35, 41);
+  font-size: 14px;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  opacity: 1;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.advert_create_tuning_ads_payment_block_payment_time_limit_logo_wrapper {
+  height: 100%;
+  padding-right: 8px;
+  flex-shrink: 0;
+  padding-left: 4px;
+  font-size: 14px;
+
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.advert_create_tuning_ads_payment_block_payment_time_limit_logo {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  font-size: 16px;
+  fill: currentcolor;
+  transform: rotate(0deg);
+  color: rgb(112, 122, 138);
+  width: 1em;
+  height: 1em;
+}
+
+/* Create Ads Modal Paument Methods */
+.advert_create_modal_payment_method_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  z-index: 1100;
+}
+
+.advert_create_modal_payment_method_form {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  position: fixed;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  z-index: 1200;
+  flex-direction: unset;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0px);
+}
+
+.advert_create_modal_payment_method_Content_wrapper {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  position: relative;
+  box-shadow: rgba(20, 21, 26, 0.16) 0px 8px 16px, rgba(71, 77, 87, 0.16) 0px 16px 32px,
+    rgba(20, 21, 26, 0.1) 0px 0px 1px;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  animation: 0.3s ease-in-out 0s 1 normal none running animation-1wqz9z0;
+}
+
+.advert_create_modal_payment_method_content {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  flex-direction: column;
+  border-radius: 6px;
+  width: 672px;
+}
+
+.advert_create_modal_payment_method_content_header {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  position: relative;
+  height: 64px;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.advert_create_modal_payment_method_content_header_text {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(30, 35, 41);
+}
+
+.advert_create_modal_payment_method_content_header_text_close {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  color: rgb(146, 154, 165);
+  font-size: 24px;
+  fill: rgb(146, 154, 165);
+  width: 1em;
+  height: 1em;
+  cursor: pointer;
+}
+
+.advert_create_modal_payment_method_content_body {
+  box-sizing: border-box;
+  margin: 0px 0px 24px;
+  min-width: 0px;
+}
+
+.advert_create_modal_payment_method_content_body_content {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  height: 392px;
+  overflow: hidden auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.advert_create_modal_payment_method_content_body_item {
+  padding: 16px;
+  border: 1px solid rgb(250, 250, 250);
+  background-color: rgb(250, 250, 250);
+  border-radius: 4px;
+}
+
+.advert_create_modal_payment_method_content_body_item:hover {
+  border: 1px solid rgb(240, 185, 11);
+  cursor: pointer;
+}
+
+.advert_create_modal_payment_method_content_body_item_header {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.advert_create_modal_payment_method_content_body_item_header_title {
+  box-sizing: border-box;
+  margin: 0px 8px 0px 0px;
+  min-width: 0px;
+  color: rgb(102, 76, 219);
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.advert_create_modal_payment_method_content_body_item_header_edit {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: inline-block;
+  position: relative;
+}
+
+.advert_create_modal_payment_method_content_body_item_header_edit_logo {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  color: rgb(146, 154, 165);
+  font-size: 20px;
+  fill: rgb(146, 154, 165);
+  width: 1em;
+  height: 1em;
+}
+
+.advert_create_modal_payment_method_content_body_item_name_block {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.advert_create_modal_payment_method_content_body_item_name_title {
+  font-size: 14px;
+  line-height: 24px;
+  width: 170px;
+  color: rgb(60, 65, 82);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.advert_create_modal_payment_method_content_body_item_name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgb(26, 31, 52);
+  width: 20%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1 1 0%;
+}
+
+.advert_create_modal_payment_method_content_body_item_bank_block {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.advert_create_modal_payment_method_content_body_item_bank_title {
+  font-size: 14px;
+  line-height: 24px;
+  width: 170px;
+  color: rgb(60, 65, 82);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.advert_create_modal_payment_method_content_body_item_bank_info {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgb(26, 31, 52);
+  width: 20%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1 1 0%;
+}
+
+.advert_create_modal_payment_method_content_footer {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  padding-top: 16px;
+}
+
+.advert_create_modal_payment_method_content_footer_btn {
+  margin: 0px 16px 0px 0px;
+  appearance: none;
+  user-select: none;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  padding: 6px 12px;
+  line-height: 20px;
+  word-break: keep-all;
+  color: rgb(24, 26, 32);
+  border-radius: 4px;
+  min-height: 24px;
+  border: none;
+  background-image: none;
+
+  height: 40px;
+  min-width: 104px;
+}
+
+.advert_create_modal_payment_method_content_footer_btn_add {
+  background-color: rgb(252, 213, 53);
+}
+
+.advert_create_modal_payment_method_content_footer_btn_add:hover {
+  box-shadow: none;
+  background-image: none;
+  background-color: rgb(252, 213, 53);
+  opacity: 0.9;
+}
+
+.advert_create_modal_payment_method_content_footer_btn_refresh {
+  background-color: rgb(234, 236, 239);
+}
+
+.advert_create_modal_payment_method_content_footer_btn_refresh:hower {
+  box-shadow: none;
+  background-image: none;
+  background-color: rgb(245, 245, 245);
+}
+
+.advert_create_modal_payment_method_content_footer_btn_add_logo {
+  box-sizing: border-box;
+  margin: 0px 8px 0px 0px;
+  min-width: 0px;
+  color: currentcolor;
+  font-size: 14px;
+  fill: currentcolor;
+  width: 1em;
+  height: 1em;
 }

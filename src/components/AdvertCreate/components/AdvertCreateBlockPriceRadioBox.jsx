@@ -50,7 +50,7 @@ export function AdvertCreateBlockPriceRadioBox({
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"
               fill="none"
-              class="advert_create_tuning_ads_asset_block_price_type_choose_radio_box_item_logo_active"
+              className="advert_create_tuning_ads_asset_block_price_type_choose_radio_box_item_logo_active"
             >
               <circle cx="8" cy="8" r="7.5" stroke="currentColor"></circle>
               <circle cx="8" cy="8" r="4" fill="currentColor"></circle>
@@ -62,7 +62,7 @@ export function AdvertCreateBlockPriceRadioBox({
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"
               fill="none"
-              class="advert_create_tuning_ads_asset_block_price_type_choose_radio_box_item_logo"
+              className="advert_create_tuning_ads_asset_block_price_type_choose_radio_box_item_logo"
             >
               <circle cx="8" cy="8" r="7.5" stroke="currentColor"></circle>
             </svg>
@@ -87,7 +87,7 @@ export function AdvertCreateBlockPriceRadioBox({
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"
               fill="none"
-              class="advert_create_tuning_ads_asset_block_price_type_choose_radio_box_item_logo_active"
+              className="advert_create_tuning_ads_asset_block_price_type_choose_radio_box_item_logo_active"
             >
               <circle cx="8" cy="8" r="7.5" stroke="currentColor"></circle>
               <circle cx="8" cy="8" r="4" fill="currentColor"></circle>
@@ -99,7 +99,7 @@ export function AdvertCreateBlockPriceRadioBox({
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"
               fill="none"
-              class="advert_create_tuning_ads_asset_block_price_type_choose_radio_box_item_logo"
+              className="advert_create_tuning_ads_asset_block_price_type_choose_radio_box_item_logo"
             >
               <circle cx="8" cy="8" r="7.5" stroke="currentColor"></circle>
             </svg>

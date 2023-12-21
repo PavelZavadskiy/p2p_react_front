@@ -1,19 +1,24 @@
 import { useEffect, useState, useRef } from 'react';
+import Tooltip, { TooltipProps, tooltipClasses } from '@mui/material/Tooltip';
 
-export function AdvertCreateBlockPriceTypeFixed({
+export function AdvertCreateBlockPriceTypeFloating({
   currentGlobalPrice,
   currentPrice,
   changeCurrentPrice,
   limitMin,
   limitMax,
   currentHighestOrderPrice,
+  currentPercentPrice,
+  changeCurrentPercentPrice,
+  currentFiat,
+  fiats,
 }) {
   const handlerOnReduce = () => {
-    if (limitMin < currentPrice) changeCurrentPrice(Math.round((currentPrice - 0.01) * 100) / 100);
+    if (limitMin < currentPrice) changeCurrentPercentPrice(Math.round((currentPercentPrice - 0.01) * 100) / 100);
   };
 
   const handlerOnIncrease = () => {
-    if (limitMax > currentPrice) changeCurrentPrice(Math.round((currentPrice + 0.01) * 100) / 100);
+    if (limitMax > currentPrice) changeCurrentPercentPrice(Math.round((currentPercentPrice + 0.01) * 100) / 100);
   };
 
   return (
@@ -43,7 +48,7 @@ export function AdvertCreateBlockPriceTypeFixed({
               id="C2C_p2pPost_step1_price_input"
               type="text"
               className="advert_create_tuning_ads_asset_block_price_type_tuning_price_box_item_input"
-              value={currentPrice}
+              value={currentPercentPrice.toFixed(2) + ' %'}
             ></input>
             <div className="advert_create_tuning_ads_asset_block_price_type_tuning_price_box_item_button_wrapper">
               <button
@@ -64,7 +69,13 @@ export function AdvertCreateBlockPriceTypeFixed({
           </div>
         </div>
         <div data-bn-type="text" className="advert_create_tuning_ads_asset_block_price_type_tuning_price_box_info">
-          The fixed price should be between {limitMin.toFixed(2)} - {limitMax.toFixed(2)}
+          <Tooltip title="Floating price = Market price x exchange rate  x price margin" arrow>
+            <span  className="advert_create_tuning_ads_asset_block_price_type_tuning_price_box_info_formula">Pricing formula</span>
+          </Tooltip>{' '}
+          {currentGlobalPrice.toFixed(2)} * {currentPercentPrice.toFixed(2)} &#8776;{' '}
+          <span className="advert_create_tuning_ads_asset_block_price_type_tuning_price_box_info_span">
+            {currentPrice.toFixed(2)} {fiats[currentFiat].mnemo}
+          </span>
         </div>
       </div>
     </div>

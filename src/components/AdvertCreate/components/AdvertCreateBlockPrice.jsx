@@ -3,6 +3,7 @@ import { AdvertCreateAssetBlock } from './AdvertCreateAssetBlock';
 import { AdvertCreateBlockPriceRadioBox } from './AdvertCreateBlockPriceRadioBox';
 import { AdvertCreateBlockPriceTypeFixed } from './AdvertCreateBlockPriceTypeFixed';
 import { AdvertCreateBlockPriceFinalInfo } from './AdvertCreateBlockPriceFinalInfo';
+import { AdvertCreateBlockPriceTypeFloating } from './AdvertCreateBlockPriceTypeFloating';
 
 export function AdvertCreateBlockPrice({
   currentTypeAds,
@@ -20,6 +21,8 @@ export function AdvertCreateBlockPrice({
   limitMin,
   limitMax,
   currentHighestOrderPrice,
+  currentPercentPrice,
+  changeCurrentPercentPrice,
 }) {
   useEffect(() => {
     console.log('AdvertCreateBlockPrice > currentFiat = ', currentFiat, ', currentCrypto = ', currentCrypto);
@@ -54,6 +57,22 @@ export function AdvertCreateBlockPrice({
           limitMin={limitMin}
           limitMax={limitMax}
           currentHighestOrderPrice={currentHighestOrderPrice}
+        />
+      )}
+      {currentTypePrice === 1 && (
+        <AdvertCreateBlockPriceTypeFloating
+          cryptos={cryptos}
+          fiats={fiats}
+          currentFiat={currentFiat}
+          currentCrypto={currentCrypto}
+          currentGlobalPrice={currentGlobalPrice}
+          currentPrice={currentPrice}
+          changeCurrentPrice={changeCurrentPrice}
+          limitMin={limitMin}
+          limitMax={limitMax}
+          currentHighestOrderPrice={currentHighestOrderPrice}
+          currentPercentPrice={currentPercentPrice}
+          changeCurrentPercentPrice={changeCurrentPercentPrice}
         />
       )}
       <AdvertCreateBlockPriceFinalInfo

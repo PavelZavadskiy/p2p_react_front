@@ -104,7 +104,7 @@ export const TableFilterPopUpCheckBox = ({ onClose, onChangeValue, isOnlyMerchan
               fill="none"
               aria-hidden="true"
               data-indeterminate="false"
-              class="table_filter_pop_up_checkbox_label_logo"
+              className="table_filter_pop_up_checkbox_label_logo"
             >
               <path
                 fill-rule="evenodd"

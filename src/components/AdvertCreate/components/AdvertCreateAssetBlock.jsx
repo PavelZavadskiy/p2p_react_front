@@ -45,7 +45,7 @@ export function AdvertCreateAssetBlock({
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="none"
-                class="table_header_filter_payment_methods_crypto_triangle_logo"
+                className="table_header_filter_payment_methods_crypto_triangle_logo"
               >
                 <path d="M16.5 8.49v2.25L12 15.51l-4.5-4.77V8.49h9z" fill="currentColor"></path>
               </svg>
@@ -89,7 +89,7 @@ export function AdvertCreateAssetBlock({
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="none"
-                class="table_header_filter_payment_methods_crypto_triangle_logo"
+                className="table_header_filter_payment_methods_crypto_triangle_logo"
               >
                 <path d="M16.5 8.49v2.25L12 15.51l-4.5-4.77V8.49h9z" fill="currentColor"></path>
               </svg>
